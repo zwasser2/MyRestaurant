@@ -1,0 +1,13 @@
+<div class="topBoxMenuContainer">
+  <div class="topBoxMenu">
+    Menu
+  </div>
+</div>
+<div class="menuContainer"><div class="menuBox">
+  <div class="foodType foodName">{{currentMealType}}</div>
+  <div *ngFor="let meal of listOfMealsWithMealType">
+    <strong><a class="foodName" routerLink="/{{currentMealType}}/{{meal.name}}">{{meal.name}}</a></strong>
+    <div class="foodDescription">{{meal.basicDescription}}</div>
+  </div>
+</div>
+</div>

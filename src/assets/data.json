@@ -1,0 +1,24 @@
+[
+  {
+    "name":"Pork Belly",
+    "location": "https://zachfoodapp.s3-us-west-1.amazonaws.com/IMG-2248.JPG",
+    "basicDescription": "Pork belly diced, cured with brown sugar, white sugar and salt, cooked in a pressure cooker and seared in a cast iron skillet",
+    "detailedDescription": "1. Get pork belly ...",
+    "foodType": "Appetizers"
+  },
+  {
+    "name":"Peanut Butter Chicken",
+    "location": "https://zachfoodapp.s3-us-west-1.amazonaws.com/IMG-2309.JPG",
+    "basicDescription": "Chicken Sous Vide'd in peanut sauce for 2 hours, seared on cast iron skilled in rendered duck fat. Served with rice",
+    "detailedDescription": "1. Get chicken breast",
+    "foodType": "Dinner"
+  },
+  {
+    "name":"Blue Cheese Crusted New York Strip Steak",
+    "location": "https://zachfoodapp.s3-us-west-1.amazonaws.com/IMG-2312.JPG",
+    "alternative": "https://zachfoodapp.s3-us-west-1.amazonaws.com/IMG-2313.JPG",
+    "basicDescription": "Steak sous vide for an hour, spiced, seared in butter, topped with blue cheese crust",
+    "detailedDescription": "1. Get steak",
+    "foodType": "Dinner"
+  }
+]

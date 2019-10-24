@@ -1,0 +1,50 @@
+img {
+  width: 100%;
+}
+
+/* Would be an excellent time for a pun here */
+.foodContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height:50%;
+  width:50%;
+  margin: auto;
+  border: 5px solid #a2cdb0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.imageContainer {
+  flex:1
+}
+
+.descriptionContainer {
+  flex:2;
+}
+
+.descriptionText {
+  text-align: center;
+}
+
+.nameText {
+  color: #545454;
+  display: block;
+  font-size: 1.3em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.basicDescriptionText {
+  color: #545454;
+  display: block;
+  font-size: 1.05em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 10px;
+}

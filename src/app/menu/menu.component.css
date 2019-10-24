@@ -1,0 +1,57 @@
+.topBoxMenuContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.topBoxMenu {
+  background-color: #a2cdb0;
+  color: black;
+  width: 75%;
+  text-align: center;
+  padding: 10px;
+  margin: 15px;
+  margin-top: 50px;
+  border-radius: 10px;
+}
+
+.menuBox {
+  border: 5px solid #a2cdb0;
+  width: 75%;
+  padding-left: 15px;
+  border-radius: 10px;
+}
+.menuContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.foodName {
+  color: #545454;
+  display: block;
+  font-size: 1.3em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.foodDescription {
+  color: #545454;
+  display: block;
+  font-size: 1.05em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-bottom: 10px;
+}
+
+.foodType {
+  color: #025B52;
+  padding-bottom: 15px;
+}
+
+a:visited {
+  color: #545454;
+}
